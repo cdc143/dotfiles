@@ -353,3 +353,7 @@ This function is called at the very end of Spacemacs initialization."
 )
 (setq-default dotspacemacs-configuration-layers
               '((c-c++ :variables c-c++-enable-clang-support t)))
+(setq backup-directory-alist
+      `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms
+      `((".*" ,temporary-file-directory t)))
