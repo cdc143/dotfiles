@@ -46,6 +46,7 @@ values."
      python
      javascript
      html
+     gtags
      semantic
      ;; markdown
      ;; org
